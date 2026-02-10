@@ -1,0 +1,62 @@
+.header {
+  text-align: center;
+  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #bdc3c7;
+}
+
+.title {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.scoreBar {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #3498db;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.scoreLabel {
+  opacity: 0.9;
+}
+
+.scoreValue {
+  font-size: 1.15rem;
+}
+
+.winBanner {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #2ecc71;
+  color: #fff;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.winBanner p {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+}
+
+.playAgainBtn {
+  padding: 0.6rem 1.25rem;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #2ecc71;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.playAgainBtn:hover {
+  background: #ecf0f1;
+}

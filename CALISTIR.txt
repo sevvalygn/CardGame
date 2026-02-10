@@ -1,0 +1,17 @@
+Card Game - Nasıl çalıştırılır?
+================================
+
+1. Terminali açın ve bu klasöre gidin:
+   cd /Users/ahmetarifyildirim/Documents/CardGame
+
+2. Bağımlılıkları yükleyin (ilk seferde):
+   npm install
+
+3. Sunucuyu başlatın:
+   npm run dev
+
+4. Tarayıcıda ŞU ADRESİ açın (port 5173 zorunlu):
+   http://localhost:5173
+
+   Sadece 127.0.0.1 yazarsanız sayfa boş kalır. Mutlaka :5173 ekleyin:
+   http://127.0.0.1:5173
